@@ -5,7 +5,7 @@ function primeNumber(a) {
             return "NO";
         }
         else {
-            return "Yes";
+            return "YES";
         }
     }
 }
