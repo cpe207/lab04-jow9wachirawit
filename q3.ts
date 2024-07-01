@@ -1,5 +1,13 @@
-function primeNumber(a) {
+function primeNumber(a:number) {
   /* Your code here */
+  for(let i = 2;i<=a;i++){
+    if(a%i == 0 && i != a){
+      return "NO";
+    }else{
+      return "Yes";
+    }
+  }
+  
 }
 
 const d1 = 10;
@@ -11,3 +19,7 @@ console.log(primeNumber(d2));
 console.log(primeNumber(d3));
 
 module.exports = primeNumber;
+
+//รหัส นศ.: 660612156
+
+//ชื่อ-สกุล : วชิรวิทย์ ไชยมาตย์
