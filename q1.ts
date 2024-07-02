@@ -1,4 +1,4 @@
-function typeChecker(a, b) {
+function typeChecker(a:any, b:any) {
   if(typeof a === typeof b){
     if(typeof a === 'string') {
       return "I LOVE YOU";
